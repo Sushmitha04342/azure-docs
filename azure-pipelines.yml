@@ -15,3 +15,7 @@ steps:
     echo See https://aka.ms/yaml
     echo succeeded
   displayName: 'Run a multi-line script'
+  
+  - script: |
+      echo Build Success
+      displayName: 'Run a one-line script'
