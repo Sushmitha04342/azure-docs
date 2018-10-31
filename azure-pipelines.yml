@@ -16,6 +16,5 @@ steps:
     echo succeeded
   displayName: 'Run a multi-line script'
   
-  - script: |
-      echo Build Success
-   displayName: 'Run a one-line script'
+  - script: echo Hello, world!
+  displayName: 'Run a one-line script'
